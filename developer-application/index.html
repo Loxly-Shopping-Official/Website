@@ -22,6 +22,7 @@
       align-items: center;
       height: 100vh;
       text-align: center;
+      padding: 0 10px;
     }
 
     /* Main Container */
@@ -30,23 +31,28 @@
       padding: 30px;
       border-radius: 10px;
       box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-      width: 80%;
+      width: 100%;
       max-width: 960px;
       text-align: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      height: auto; /* Adjust to fit content */
     }
 
     /* Header */
     h1 {
       font-size: 2.5rem;
       color: #2c3e50;
-      margin-bottom: 20px;
+      margin-bottom: 10px;
+      word-wrap: break-word;
     }
 
     /* Subheading */
     h2 {
       font-size: 1.2rem;
       color: #7f8c8d;
-      margin-bottom: 40px;
+      margin-bottom: 30px;
     }
 
     /* Google Form Embed */
@@ -54,7 +60,7 @@
       border: none;
       width: 100%;
       max-width: 640px;
-      height: 1652px;
+      height: 70vh; /* Adjust height to ensure enough space for the heading */
       border-radius: 8px;
     }
 
